@@ -12,7 +12,7 @@ uint32_t unpack_u32(const uint8_t **);
 
 uint8_t unpack_bytes(const uint8_t **, size_t, uint8_t *);
 
-uint16_t unpack_string16(uint8_t **buf, uint8_t **dest);
+uint16_t unpack_string16(uint8_t **, uint8_t **);
 
 void pack_u8(uint8_t **, uint8_t);
 
@@ -20,6 +20,6 @@ void pack_u16(uint8_t **, uint16_t);
 
 void pack_u32(uint8_t **, uint32_t);
 
-void pack_bytes(uint8_t **, uint8_t);
+void pack_bytes(uint8_t **, uint8_t *);
 
 #endif
