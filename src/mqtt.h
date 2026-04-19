@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 // Each MQTT Control Packet contains a fixed header.
-#define MQTT_HEADER_LEN = 2 // 1 byte for the fixed header and 1 byte for the remaining length
+#define MQTT_HEADER_LEN 2 // 1 byte for the fixed header and 1 byte for the remaining length
 #define MQTT_ACK_LEN 4
 
 #define CONNACK_BYTE 0x20  // 0010 0000
